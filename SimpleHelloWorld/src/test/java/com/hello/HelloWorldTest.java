@@ -8,5 +8,10 @@ public class HelloWorldTest {
 	public void testBuildName() {
 		assertNotNull(HelloWorld.buildName("Alok"));	
 	}
+	
+	@Test
+	public void testBuildNameTest() {
+		assertNotNull(HelloWorld.buildName("Alok"));	
+	}
 
 }
