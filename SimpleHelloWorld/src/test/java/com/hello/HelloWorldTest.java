@@ -13,5 +13,10 @@ public class HelloWorldTest {
 	public void testBuildNameTest() {
 		assertNotNull(HelloWorld.buildName("Alok"));	
 	}
+	
+	@Test
+	public void testBuildNameTrueTest() {
+		assertNotNull(HelloWorld.buildName("Alok"));	
+	}
 
 }
